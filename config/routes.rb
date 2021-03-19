@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get '/',           to: 'greetings#welcome'
   get '/hello',      to: 'greetings#index'
   get 'hello/:name', to: 'greetings#hello'
+
+  resources :urls, only: %i(create)
 end

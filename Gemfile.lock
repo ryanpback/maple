@@ -172,6 +172,8 @@ GEM
       rspec-support (~> 3.9.0)
     rspec-support (3.9.4)
     shellany (0.0.1)
+    shortener (0.8.2)
+      voight_kampff (~> 1.1.2)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -187,6 +189,8 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    voight_kampff (1.1.4)
+      rack (>= 1.4, < 3.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -206,6 +210,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   rspec-rails (~> 3.8)
+  shortener
   spring
   spring-watcher-listen (~> 2.0.0)
 
